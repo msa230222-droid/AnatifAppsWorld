@@ -1,11 +1,116 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Anatif Apps World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ece9f7, #cbc4fc 60%, #fff);
+        font-family: 'Segoe UI', Arial, sans-serif;
+        min-height: 100vh;
+      }
+      .container {
+        max-width: 500px;
+        margin: 40px auto;
+        background: #fff;
+        box-shadow: 0 4px 24px #d0ccfc55;
+        border-radius: 20px;
+        padding: 32px 26px 32px 26px;
+        text-align: center;
+      }
+      .logo {
+        width: 120px;
+        border-radius: 18px;
+        box-shadow: 0 0 12px #e8e4fe77;
+        margin-bottom: 24px;
+      }
+      h1 {
+        font-size: 2.4em;
+        margin: 10px 0 16px 0;
+        color: #5339b9;
+      }
+      .desc {
+        color: #222;
+        font-size: 1.08em;
+        margin-bottom: 24px;
+      }
+      .btn {
+        background: #6245e3;
+        color: #fff;
+        padding: 11px 30px;
+        border-radius: 7px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        display: inline-block;
+        margin-top: 18px;
+        transition: background 0.2s;
+      }
+      .btn:hover {
+        background: #412da7;
+      }
+      .section {
+        margin-top: 38px;
+        text-align: left;
+        background: #f5f2fa;
+        border-radius: 11px;
+        padding: 22px 16px;
+      }
+      .app-logo {
+        width: 54px;
+        border-radius: 10px;
+        vertical-align: middle;
+        margin-right: 10px;
+        box-shadow: 0 0 6px #e8e4fe55;
+      }
+      .section h2 {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        font-size: 1.18em;
+        color: #5339b9;
+      }
+      .privacy-link {
+        margin-left: 22px;
+        background: #6245e3;
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 18px;
+        border-radius: 6px;
+        font-size: 0.97em;
+        transition: background 0.2s;
+      }
+      .privacy-link:hover {
+        background: #3e238f;
+      }
+      .footer {
+        margin-top: 32px;
+        font-size: 0.96em;
+        color: #887fc4;
+      }
+    </style>
   </head>
   <body>
-    <img src="Anatif_Logo.svg" alt="Website Logo" width="120">
+    <div class="container">
+      <!-- Website Logo (SVG) -->
+      <img src="Anatif_Logo.svg" alt="Website Logo" class="logo">
 
-    <h1>Anatif Apps World</h1>
-    <p>All apps privacy policies, update and support are available here. </p>
+      <h1>Anatif Apps World</h1>
+      <div class="desc">
+        All apps privacy policies, update and support are available here.
+      </div>
+      <a href="mailto:your@email.com" class="btn">Contact Support</a>
+
+      <div class="section">
+        <img src="StockPLRecordLogo.svg" alt="App Logo" class="app-logo">
+        <h2>Stock P&amp;L Record</h2>
+        <a href="privacy.html" class="privacy-link">Privacy Policy</a>
+      </div>
+      <div class="footer">
+        &copy; 2025 Anatif Apps World
+      </div>
+    </div>
   </body>
 </html>
