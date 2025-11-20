@@ -90,6 +90,27 @@
         font-size: 0.96em;
         color: #887fc4;
       }
+      @media (max-width: 600px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .app-logo {
+    margin-bottom: 12px;
+    margin-right: 0;
+  }
+  .privacy-link {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+  }
+}
+
     </style>
   </head>
   <body>
@@ -104,10 +125,11 @@
       <a href="mailto:your@email.com" class="btn">Contact Support</a>
 
       <div class="section">
-        <img src="StockPLRecordLogo.svg" alt="App Logo" class="app-logo">
-        <h2>Stock P&amp;L Record</h2>
-        <a href="privacy.html" class="privacy-link">Privacy Policy</a>
-      </div>
+  <img src="StockPLRecordLogo.svg" alt="App Logo" class="app-logo">
+  <h2 style="display:inline-block;vertical-align:middle;margin-right:10px;">Stock P&amp;L Record</h2>
+  <a href="privacy.html" class="privacy-link">Privacy Policy</a>
+</div>
+
       <div class="footer">
         &copy; 2025 Anatif Apps World
       </div>
